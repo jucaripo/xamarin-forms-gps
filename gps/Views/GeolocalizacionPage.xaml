@@ -9,16 +9,16 @@
             <StackLayout>
                 <Label Text="Mi ubicación en gps cache" />
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Latitud: " />
-                    <Label x:Name="txtLatCache" Text="0.0" />
-                    <Label Text="Longitud: " />
-                    <Label x:Name="txtLongCache" Text="0.0" /> 
+                    <Label Text="Latitud: "  FontSize="10"/>
+                    <Label x:Name="txtLatCache" Text="0.0"  FontSize="10" />
+                    <Label Text="Longitud: "  FontSize="10" />
+                    <Label x:Name="txtLongCache" Text="0.0"  FontSize="10" /> 
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Altitud: " />
-                    <Label x:Name="txtAltitudCache" Text="0.0" />
-                    <Label Text="Velocidad: " />
-                    <Label x:Name="txtVelocidadCache" Text="0.0" /> 
+                    <Label Text="Altitud: "   FontSize="10"/>
+                    <Label x:Name="txtAltitudCache" Text="0.0"  FontSize="10" />
+                    <Label Text="Velocidad: "  FontSize="10" />
+                    <Label x:Name="txtVelocidadCache" Text="0.0"  FontSize="10"/> 
                 </StackLayout>
                 <Label Text=" " />
                 <Button Text="Traer mi ubicacion del cache" Clicked="GpsCache_Clicked" />
@@ -29,16 +29,16 @@
             <StackLayout>
                 <Label Text="Mi ubicación en gps actual" />
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Latitud: " />
-                    <Label x:Name="txtLat" Text="0.0" />
-                    <Label Text="Longitud: " />
-                    <Label x:Name="txtLong" Text="0.0" /> 
+                    <Label Text="Latitud: "  FontSize="10" />
+                    <Label x:Name="txtLat" Text="0.0"  FontSize="10"/>
+                    <Label Text="Longitud: "  FontSize="10"/>
+                    <Label x:Name="txtLong" Text="0.0"  FontSize="10" /> 
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Altitud: " />
-                    <Label x:Name="txtAltitud" Text="0.0" />
-                    <Label Text="Velocidad: " />
-                    <Label x:Name="txtVelocidad" Text="0.0" /> 
+                    <Label Text="Altitud: "  FontSize="10"/>
+                    <Label x:Name="txtAltitud" Text="0.0"  FontSize="10" />
+                    <Label Text="Velocidad: "  FontSize="10"/>
+                    <Label x:Name="txtVelocidad" Text="0.0"  FontSize="10" /> 
                 </StackLayout>
                 <Label Text=" " />
                 <Button Text="Traer mi ubicacion " Clicked="Gps_Clicked" />

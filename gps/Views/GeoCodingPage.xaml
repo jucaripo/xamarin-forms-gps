@@ -5,7 +5,51 @@
              Title="GeoCoding">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="hola" />
+            <Frame HasShadow="True" Margin="5,5,5,5">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="AdminArea:" FontSize="10" />
+                        <Label x:Name="txtAdminArea" FontSize="10" />
+                    </StackLayout>
+                     <StackLayout Orientation="Horizontal">
+                        <Label Text="CountryCode:" FontSize="10" />
+                        <Label x:Name="txtCountryCode" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="CountryName:" FontSize="10" />
+                        <Label x:Name="txtCountryName" FontSize="10" />
+                    </StackLayout>
+                     <StackLayout Orientation="Horizontal">
+                        <Label Text="FeatureName:" FontSize="10" />
+                        <Label x:Name="txtFeatureName" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Locality:" FontSize="10" />
+                        <Label x:Name="txtLocality" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="PostalCode:" FontSize="10" />
+                        <Label x:Name="txtPostalCode" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="SubAdminArea:" FontSize="10" />
+                        <Label x:Name="txtSubAdminArea" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="SubLocality:" FontSize="10" />
+                        <Label x:Name="txtSubLocality" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="SubThoroughfare:" FontSize="10" />
+                        <Label x:Name="txtSubThoroughfare" FontSize="10" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Thoroughfare:" FontSize="10" />
+                        <Label x:Name="txtThoroughfare" FontSize="10" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Button Text="Traer la direccion del gps" Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

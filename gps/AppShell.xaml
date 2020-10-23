@@ -22,6 +22,54 @@
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
     </Shell.Resources>
+
+     <FlyoutItem Title="Geolocalizació Basica"   >
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource FontAwesomeSolid}"
+                Glyph="&#xf3c5;"
+                Color="#4a5276" Size="25">
+            </FontImageSource>
+        </FlyoutItem.Icon>
+        <Tab Title="Geolocalizacion Basica" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:GeolocalizacionPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Geolocalización Mapa"   >
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource FontAwesomeSolid}"
+                Glyph="&#xf5a0;"
+                Color="#4a5276" Size="25">
+            </FontImageSource>
+        </FlyoutItem.Icon>
+        <Tab Title="Geolocalizacion Basica" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:GeoGeneralPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Geocoding Ejemplo"   >
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource FontAwesomeSolid}"
+                Glyph="&#xf21d;"
+                Color="#4a5276" Size="25">
+            </FontImageSource>
+        </FlyoutItem.Icon>
+        <Tab Title="Dashboard" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:GeoCodingPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Mapa Ejemplo"   >
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource FontAwesomeSolid}"
+                Glyph="&#xf2bb;"
+                Color="#4a5276" Size="25">
+            </FontImageSource>
+        </FlyoutItem.Icon>
+        <Tab Title="Dashboard" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:GeoCodingPage}" />
+        </Tab>
+    </FlyoutItem>
+
+
+
     <TabBar>
         <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Browse" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />

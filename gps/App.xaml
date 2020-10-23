@@ -5,6 +5,16 @@
     -->
     <Application.Resources>
         <ResourceDictionary>
+             <!-- Metal design Color definition-->
+        <Color x:Key="PrimaryColor" >#000000</Color>
+        <Color x:Key="SecondaryColor">#ffffff</Color>
+        <!--  interface colors -->
+        <Color x:Key="ButtonColor" >#A8A0A0</Color>
+        <!-- icons in app-->
+        <OnPlatform x:Key="FontAwesomeSolid" x:TypeArguments="x:String"  Android="fa-solid-900.ttf#Font Awesome 5 Free Solid" iOS="FontAwesome" />
+
+
+
             <Color x:Key="Primary">#2196F3</Color>
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="White">
